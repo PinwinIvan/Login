@@ -1,0 +1,232 @@
+body{
+background-color: rgb(221, 182, 25);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: auto;
+text-align: center;
+}
+
+/*login styles*/
+.login-form, .container{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.login-form h1{
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    padding: 70px 0 10px 0;
+}
+
+.login-form input[type="password"], .login-form input[type = "text"]{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgb(165, 20, 227);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/*login btn style*/
+.btn-login{
+    width: 100%;
+    padding: 15px;
+    background-color: #07ADF2;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+
+.btn-login:hover, .btn-login:active{
+    color: antiquewhite;
+    background-color: #F4C424;
+    border-color: #F4C424;
+}
+
+.btn-login:focus{
+    box-shadow: 0 0 0 3px rgba(40, 40, 137, 0.167);
+}
+
+/*register btn style*/
+.btn-register{
+    width: 100%;
+    padding: 15px;
+    background-color: #0771f2;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    margin-top: 20px;
+    /*give button appearance*/
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-register:hover, .btn-register:active{
+    color: antiquewhite;
+    background-color: #F4C424;
+    border-color: #F4C424;
+}
+
+.btn-register:focus{
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.391)
+}
+
+/* Login button Style*/
+.a-login:link, .a-login:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #10b981;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.a-login:hover, .a-login:active {
+    background-color: #10b981;
+    color: white;
+}
+
+/* Logout button Style*/
+.a-login:link, .a-login:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #f87171;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.a-login:hover, .a-login:active {
+    background-color: #f87171;
+    color: white;
+}
+
+/*register form*/
+.register-form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px 20px 60px 20px;
+    margin-top: 35px;
+    text-align: left !important;
+    box-shadow: 0px 19px 38px rgba(0, 0, 0, 0.30), 0px 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.register-form h1 {
+    text-align: left;
+    color: midnightblue;
+    font-size: 22px;
+    padding: 70px 0 10px 0;
+}
+.register-form input[type="password"],.register-form [type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.select-rol {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: .4em 1.4em .3em .8em;
+    width: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.select-rol::-ms-expand {
+    display: none;
+}
+
+.select-rol:hover {
+    border-color: #888;
+}
+
+.select-rol:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    outline: none;
+}
+
+.select-rol option {
+    font-weight: normal;
+}
+
+/* Cancel button start */ 
+
+.btn-cancel{
+    width: 49%;
+    padding: 15px;
+    background-color: #0771f2;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    /*give button appearance*/
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-cancel:hover, .btn-register:active{
+    color: antiquewhite;
+    background-color: #F4C424;
+    border-color: #F4C424;
+}
+
+.btn-cancel:focus{
+    box-shadow: 0 0 0 3px rgb(68, 146, 219);
+}
+
+/*Save btn style*/
+.btn-save{
+    width: 49%;
+    padding: 15px;
+    background-color: #0771f2;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    /*give button appearance*/
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn-save:hover, .btn-register:active{
+    color: antiquewhite;
+    background-color: #F4C424;
+    border-color: #F4C424;
+}
+
+.btn-save:focus{
+    box-shadow: 0 0 0 3px rgb(207, 5, 5);
+}
